@@ -259,6 +259,10 @@
    margin-top: 40px;
 }
 
+.blog-timeline-wrapper .post .entry.smallish .intro{
+   top: 75% !important;
+}
+
 
 /*合作伙伴*/
 .project p{
@@ -321,4 +325,15 @@
 /*联系我们*/
 .form-control{
    padding-left: 8px !important;
+}
+
+
+/*页脚*/
+.footer .menu h3{
+   font-size: 18px !important;
+   letter-spacing: 0 !important;
+}
+
+.footer .menu ul li a {
+   font-size:14px !important;
 }
