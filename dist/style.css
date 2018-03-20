@@ -1,0 +1,324 @@
+/*公共样式*/
+.team-text p,.form-control,.about-btn,.btn-primary.active,.post-bar-first p,.news-right span,.news-right p{
+   font-size: 14px;
+}
+
+.team-nav li a,.introduction p{
+   font-size: 15px;
+}
+
+.team-text h4,.post-bar h5,.news-right h5{
+   font-size: 16px;
+}
+
+.about-address h1,.project p{
+   font-size: 18px;
+}
+
+.contact-us h3{
+   font-size: 26px;
+}
+.scheme h5.pricing-dark-section .charts .chart .specs .spec,.form-control,.team-nav li a,.team-nav li a.active,.introduction h4,.family-header h2
+,.post-bar h4,.post-bar h5{
+   font-weight: 400;
+}
+
+.contact-us h3,.about-btn,.btn-primary.active,.news-right h5{
+   font-weight: 500;
+}
+
+.skip a,.middle-btn a{
+   text-decoration: none;
+}
+
+.middle-btn a{
+   padding: 10px 32px;
+}
+
+
+/*首页*/
+.index-customer .index-logo img{
+   width: 80px !important;
+}
+
+.scheme h5{
+   margin-top: 24px;
+}
+
+/*关于我们*/
+.about-contact{
+   border-top: 1px solid #eaeaea;
+   border-bottom: 1px solid #eaeaea;
+   background: radial-gradient(#36414e,#253241);
+   margin-top: 120px;
+   padding:32px 0 32px 0;
+}
+
+.about-address p{
+   color:#666;
+}
+
+.about-address h1,.contact-box-right h4{
+   color: #444;
+}
+
+.contact-box-right h4{
+   color: #fff;
+}
+
+.contact-us h3{
+   color: #444;
+   line-height: 25px;
+}
+
+.about-us-team .team .team-row {
+   margin-bottom: 48px !important;
+}
+
+.contact-box-right{
+   padding:60px 45px;
+}
+
+.contact-box-left{
+   padding-top: 48px;
+}
+
+.about-us-team .team{
+   margin-top: 48px;
+}
+
+.credits p{
+   padding-top: 20px;
+   font-size: 13px;
+   text-align: center;
+   color: #a3aab5;
+   margin: 0;
+}
+
+.right-input input{
+   margin-bottom: 16px;
+}
+
+.right-input input,.right-input input:focus,.right-input textarea,.right-input textarea:focus{
+   border-right: 0;
+   border-top: 0;
+   border-left: 0;
+   border-bottom: solid 1px #fff;
+   background-color: transparent;
+   border-radius: 0;
+}
+
+.right-input input:focus,.right-input textarea:focus{
+   border-bottom: solid 1px #21a79b;
+
+}
+
+.form-control{
+   padding-left: 0;
+}
+
+.about-btn,.btn-primary.active{
+   background-color: #f5fafa !important;
+   padding: 10px 32px;
+   color: #21a79b !important;
+   border-radius: 30px !important;
+   border: 1px solid #21a79b;
+   margin-top: 40px;
+   line-height: 14px;
+}
+
+.about-btn:hover{
+   color: #fff !important;
+   background-color: #21a79b !important;
+   border-color:#29d2c3;
+}
+
+.btn:focus{
+   box-shadow: none;
+}
+
+
+/*团队介绍*/
+.team-nav li a{
+   color: #888;
+   border: 0;
+   padding: 0 40px 20px;
+   margin: 0 5px;
+   display: inline-block;
+   position: relative;
+   text-decoration: none;
+   transition: color .25s linear;
+}
+
+.team-nav li a.active{
+   border-bottom: 0;
+   color: #2b69a2;
+   border-bottom: 1px solid #7ba3c9;
+   margin-bottom: -1px;
+}
+
+.introduction h4{
+   color: #2b69a2;
+}
+
+.introduction p{
+   color: #6c7279;
+   margin-top: 20px;
+   line-height: 24px;
+}
+
+.family{
+   margin-top: 80px;
+}
+
+.family-header h2{
+   color: #555;
+   font-size: 27px;
+}
+
+.family-header p{
+   font-size: 17px;
+   color: #757575;
+}
+
+.blog-timeline-wrapper .post .entry,.blog-timeline-wrapper .post .entry.smallish{
+   height: 240px ;
+}
+
+.blog-timeline-wrapper .post:nth-child(2){
+   margin-top: 300px !important;
+}
+
+.blog-timeline-wrapper .post{
+   width: 40%;
+}
+
+.blog-timeline-wrapper .post:before{
+   width: 150px;
+   top:108px !important;
+}
+
+.blog-timeline-wrapper .post .marker{
+   top:102px !important;
+}
+
+.blog-timeline-wrapper .post.left .marker,.blog-timeline-wrapper .post.left:before{
+   right: -106px;
+}
+
+.blog-timeline-wrapper .post .marker,.blog-timeline-wrapper .post:before{
+   left: -107px;
+}
+
+.blog-timeline-wrapper .post-left,.blog-timeline-wrapper .post-right{
+   margin-top: 260px;
+}
+
+.blog-timeline-wrapper:before{
+   height: 95%;
+   top:80px;
+}
+
+.post-bar{
+   border-bottom: solid 1px #21a79b;
+   padding-bottom: 20px;
+}
+
+.team-text{
+   width:400px;
+   height: 240px;
+   background: rgba(0,0,0,0.4);
+   color: #fff;
+   padding: 12px 30px;
+   position: absolute;
+   top:50%;
+   margin-top: -120px;
+   right: 80px;
+   z-index: 999;
+}
+
+.post-bar h4{
+   margin: 40px 0;
+   color: #2b69a2;
+}
+
+.post-bar h5{
+   color: #555;
+   margin: 24px 0;
+}
+
+.post-bar-first p{
+   color: #6c7279;
+   padding-left: 25px;
+   margin-bottom:15px;
+   line-height: 24px;
+}
+
+.send-btn{
+   text-align: center;
+   margin-top: 40px;
+}
+
+
+/*合作伙伴*/
+.project p{
+   color:#555 ;
+   margin-top: 24px;
+   margin-bottom: 0;
+}
+
+.project img{
+   width: 80px;
+   height: 80px;
+}
+
+.partner-col{
+   text-align: center;
+   padding-bottom: 40px;
+   margin: 0 !important;
+}
+
+.gallery-portfolio{
+   margin-top: 60px;
+}
+
+
+/*云图快讯*/
+.news-blog{
+   margin-top: 80px;
+}
+
+.news-img{
+   width: 200px;
+   height:160px;
+   overflow: hidden;
+}
+
+.news-box{
+   margin-bottom: 24px;
+}
+
+.news-box .news-right{
+   padding-left: 24px;
+}
+
+.news-right h5{
+   color: #555;
+   margin-bottom: 16px;
+}
+
+.news-right span{
+   color: #6c7279;
+   margin-bottom:15px;
+   line-height: 24px;
+}
+
+.news-right p{
+   color: #555;
+}
+
+
+/*联系我们*/
+.form-control{
+   padding-left: 8px !important;
+}
