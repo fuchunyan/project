@@ -1,5 +1,13 @@
 /*公共样式*/
-.team-text p,.form-control,.about-btn,.btn-primary.active,.post-bar-first p,.news-right span,.news-right p{
+*, *::before, *::after{
+   box-sizing: initial;
+}
+
+.news-icon i,.news-project-time i{
+   font-size: 14px;
+}
+
+.team-text p,.form-control,.about-btn,.btn-primary.active,.post-bar-first p,.news-right a>span{
    font-size: 14px;
 }
 
@@ -7,11 +15,11 @@
    font-size: 15px;
 }
 
-.team-text h4,.post-bar h5,.news-right h5{
+.team-text h4,.post-bar h5,.news-right a>p{
    font-size: 16px;
 }
 
-.about-address h1,.project p{
+.about-address h1,.project p,.news-right a>h5{
    font-size: 18px;
 }
 
@@ -23,7 +31,7 @@
    font-weight: 400;
 }
 
-.contact-us h3,.about-btn,.btn-primary.active,.news-right h5{
+.contact-us h3,.about-btn,.btn-primary.active,.news-right a>h5{
    font-weight: 500;
 }
 
@@ -35,6 +43,9 @@
    padding: 10px 32px;
 }
 
+.news-right a:focus,.news-right a:hover,.news-right a:active{
+   text-decoration: none;
+}
 
 /*首页*/
 .index-customer .index-logo img{
@@ -167,7 +178,7 @@
    line-height: 24px;
 }
 
-.family{
+.family,.news-blog,.news-show{
    margin-top: 80px;
 }
 
@@ -288,10 +299,6 @@
 
 
 /*云图快讯*/
-.news-blog{
-   margin-top: 80px;
-}
-
 .news-img{
    width: 200px;
    height:160px;
@@ -301,25 +308,84 @@
 .news-box{
    margin-bottom: 24px;
 }
+.news-right{
+   position: relative;
+   height: 160px;
+}
 
 .news-box .news-right{
    padding-left: 24px;
 }
 
-.news-right h5{
+.news-right a>h5{
    color: #555;
    margin-bottom: 16px;
+   line-height:1.5 ;
 }
 
-.news-right span{
+.news-right a>span{
    color: #6c7279;
    margin-bottom:15px;
    line-height: 24px;
 }
 
-.news-right p{
+.news-right a>p,.news-icon i{
+   color: #7d8186;
+}
+
+.news-icon{
+   position: absolute;
+   bottom: 0;
+   line-height: 14px
+}
+
+.news-icon span{
    color: #555;
 }
+
+.news-icon i{
+   padding-right: 8px;
+}
+
+
+/*快讯详情*/
+
+.news-project h1{
+   text-align: center;
+   font-size: 25px;
+   color: #647583;
+   margin-top: 10px;
+   margin-bottom: 16px;
+}
+
+.news-project-time{
+   text-align: center;
+   color: #7d8186;
+}
+
+.portfolio-item-showcase .project .news-description img{
+   margin: 0 auto;
+}
+
+/*.news-text .news-description p{*/
+   /*text-indent: 2em;*/
+/*}*/
+
+.news-description-img{
+   width: 500px;
+   height: 380px;
+   overflow: hidden;
+   margin: 60px auto 48px;
+}
+
+.news-content-img{
+   width: 600px;
+   height: 340px;
+   overflow: hidden;
+   margin: 48px auto;
+}
+
+
 
 
 /*联系我们*/
@@ -350,4 +416,30 @@
 .footer .menu ul .contact-phone{
    margin-bottom: 24px;
    line-height: 14px;
+}
+
+
+@media (min-width: 768px){
+
+   /*快讯内容*/
+   .col-md-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 22%;
+   }
+}
+
+@media (min-width: 992px){
+
+   /*快讯内容*/
+   .portfolio-item-showcase .project .description p {
+      width: 100%;
+   }
+}
+
+
+/*小屏幕*/
+
+@media screen and (max-width: 992px) {
+
 }
