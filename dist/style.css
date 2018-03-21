@@ -1,4 +1,9 @@
 /*公共样式*/
+.col-md-6, .col-md-3, .col-sm-3{
+   padding-left: 0;
+   padding-right: 0;
+}
+
 *, *::before, *::after{
    box-sizing: initial;
 }
@@ -21,6 +26,10 @@
 
 .about-address h1,.project p,.news-right a>h5{
    font-size: 18px;
+}
+
+.blog-posts .post .title{
+   font-size: 20px !important;
 }
 
 .contact-us h3{
@@ -206,19 +215,23 @@
 
 .blog-timeline-wrapper .post:before{
    width: 150px;
-   top:108px !important;
+   top:138px !important;
 }
 
 .blog-timeline-wrapper .post .marker{
-   top:102px !important;
+   top:128px !important;
 }
 
-.blog-timeline-wrapper .post.left .marker,.blog-timeline-wrapper .post.left:before{
-   right: -106px;
+.blog-timeline-wrapper .post.left:before{
+   right: -104px;
+}
+
+.blog-timeline-wrapper .post.left .marker{
+   right: -118px;
 }
 
 .blog-timeline-wrapper .post .marker,.blog-timeline-wrapper .post:before{
-   left: -107px;
+   left: -119px;
 }
 
 .blog-timeline-wrapper .post-left,.blog-timeline-wrapper .post-right{
@@ -228,11 +241,21 @@
 .blog-timeline-wrapper:before{
    height: 95%;
    top:80px;
+   left: 28px;
 }
 
 .post-bar{
    border-bottom: solid 1px #21a79b;
    padding-bottom: 20px;
+}
+
+.blog-posts .post{
+   border-bottom:1px solid #dfdfdf;
+   padding-bottom: 32px;
+}
+
+.blog-posts .post{
+   margin-bottom: 32px !important;
 }
 
 .team-text{
@@ -419,13 +442,31 @@
 }
 
 
+
+
+@media (min-width: 992px){
+
+   /*博客*/
+   .col-lg-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 59.666667%;
+   }
+}
+
 @media (min-width: 768px){
 
    /*快讯内容*/
    .col-md-3 {
       -ms-flex: 0 0 25%;
-      flex: 0 0 25%;
+      flex: 0 0 22%;
       max-width: 22%;
+   }
+
+   .col-md-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 30.333333%;
+      max-width: 30.333333%;
    }
 }
 
