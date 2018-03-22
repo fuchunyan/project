@@ -1,0 +1,42 @@
+.photo-wall.cta-bg.my-4 {
+    margin-top: 0 !important;
+    height: 450px;
+    padding-top: 150px;
+}
+
+.photo-wall.cta-bg.my-4 h1 {
+    font-weight: 300;
+    color: #fff;
+}
+
+.part-content {
+    margin-top: 100px;
+}
+
+.part-content .card-columns {
+    margin-top: 60px;
+}
+
+.part-title.header {
+    color: #444;
+    line-height: 25px;
+    margin-bottom: 25px;
+    text-align: center
+}
+
+.about-us-team {
+    padding-bottom: 35px
+}
+
+.about-us-team>.stats>.col-sm-3 {
+    text-align: center
+}
+
+.about-us-team .header {
+    font-size: 2rem !important;
+}
+
+.part-bg {
+    background-color: #F6F9FE;
+    padding: 100px 0
+}

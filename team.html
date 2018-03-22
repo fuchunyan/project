@@ -9,9 +9,10 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="dist/style.css" />
+    <link rel="stylesheet" type="text/css" href="dist/team.css" />
     <link rel="stylesheet" type="text/css" href="scss/bootstrap/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="dist/theme.min.css" />
-    <link rel="stylesheet" type="text/css" href="dist/style.css" />
 
 
     <!-- javascript -->
@@ -23,7 +24,7 @@
 </head>
 <body>
 <!--nav-->
-<div class="navbar navbar-dark navbar-expand-lg" role="banner">
+<div class="navbar navbar-dark navbar-expand-lg bg-transparent" role="banner">
     <div class="container no-override">
         <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" class="mr-2 img-fluid" />
@@ -76,755 +77,209 @@
     </div>
 </div>
 
-<!--<div class="team-us-banner">-->
-        <!--<div class="team-us flexslider" style="position: relative">-->
-            <!--<ul class="slides">-->
-                <!--<li>-->
-                    <!--<img src="images/about1.jpg"/>-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--<img src="images/about2.jpg"/>-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--<img src="images/about3.jpg" />-->
-                <!--</li>-->
-            <!--</ul>-->
-            <!--&lt;!&ndash;<div class="team-text">&ndash;&gt;-->
-                <!--&lt;!&ndash;<p>在某个角落,存在着这样一群人,怀揣着改变世界的梦想,不分性别年龄,专注于软件设计和开发,用户交互体验和数据可视化研究。</p>&ndash;&gt;-->
-                <!--&lt;!&ndash;<p>他们以创新、技术,为生命意义,积极参与前沿技术和开源项目,希望建立一支本土化、工程师文化驱动的纯技术团队,共同为现代尖端技术、文化做出自己的贡献。</p>&ndash;&gt;-->
-            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-        <!--</div>-->
-<!--</div>-->
+<div class="photo-wall cta-bg my-4">
+    <h1>
+        程序猿的世界，用手织绘一张梦想的图纸
+    </h1>
+    <a href="#contact" class="scroll">
+        联系我们
+    </a>
+</div>
 
-<div class="about-team services-tabs features-tabs-section">
-    <div class="container">
-        <div class="header">
-            <h3>程序猿的世界</h3>
-            <p style="margin-top: 24px">用手织绘一张梦想的图纸</p>
-            <!--<p>这不曾开垦的荒漠</p>-->
-            <!--<p>我未曾来过</p>-->
-            <!--<p>这隐藏欲望的网络</p>-->
-            <!--<p>我未曾来过</p>-->
-            <!--<p>这里有伙伴期待着</p>-->
-            <!--<p>我未曾来过</p>-->
-            <!--<p>这里遍布星星之火</p>-->
-            <!--<p>一颗未来的心</p>-->
-            <!--<p>陪我走来</p>-->
-            <!--<p>看我走过</p>-->
+<div class="container">
+    <!--团队介绍-->
+    <div class="about-us-team">
+      <h2 class="part-title header">团队介绍</h2>
+      <div class="row stats">
+        <div class="col-sm-3">
+          <strong data-animate="zoomIn" data-animate-delay=".4">13</strong>
+          员工
         </div>
-        <nav class="nav-team nav nav-tabs justify-content-around">
-            <a class="team-tab nav-link active" data-toggle="tab" href="#tab-web">
-                关于团队
-            </a>
-            <a class="team-tab nav-link" data-toggle="tab" href="#tab-front">
-                加入我们
-            </a>
-            <a class="team-tab nav-link" data-toggle="tab" href="#tab-responsive">
-                团队博客
-            </a>
-        </nav>
-        <div class="tab-content">
-            <div class="tab-pane fade show active" id="tab-web">
-                <!--宣传轮播图-->
-                <div class="about-us-slider">
-                    <div class="container">
-                        <div class="header">
-                            <h3 style="margin-bottom: 24px">不一样的我们</h3>
-                        </div>
-                        <div class="flexslider" style="position: relative">
-                            <ul class="slides">
-                                <li>
-                                    <img src="images/about1.jpg"/>
-                                </li>
-                                <li>
-                                    <img src="images/about2.jpg"/>
-                                </li>
-                                <li>
-                                    <img src="images/about3.jpg" />
-                                </li>
-                            </ul>
-                            <div class="team-text">
-                                <p>在某个角落,存在着这样一群人,怀揣着改变世界的梦想,不分性别年龄,专注于软件设计和开发,用户交互体验和数据可视化研究。</p>
-                                <p>他们以创新、技术,为生命意义,积极参与前沿技术和开源项目,希望建立一支本土化、工程师文化驱动的纯技术团队,共同为现代尖端技术、文化做出自己的贡献。</p>
-                            </div>
-                        </div>
+        <div class="col-sm-3">
+          <strong data-animate="zoomIn" data-animate-delay=".8">10k</strong>
+          客户
+        </div>
+        <div class="col-sm-3">
+          <strong data-animate="zoomIn" data-animate-delay="1.2">9</strong>
+          模板
+        </div>
+        <div class="col-sm-3">
+          <strong data-animate="zoomIn" data-animate-delay="1.6">13k</strong>
+          产品
+        </div>
+      </div>
+      <div class="team">
+        <div class="team-row d-flex justify-content-around flex-wrap">
+          <img src="images/testimonials/person1.jpg" class="img-fluid" data-toggle="tooltip" title="大力 - CEO" alt="testimonial" />
+          <img src="images/testimonials/person4.jpg" class="img-fluid" data-toggle="tooltip" title="艾米 - PM" alt="testimonial" />
+          <img src="images/testimonials/person2.jpg" class="img-fluid" data-toggle="tooltip" title="大鱼- Developer" alt="testimonial" />
+          <img src="images/testimonials/person3.jpg" class="img-fluid" data-toggle="tooltip" title="金刚 - java攻城狮" alt="testimonial" />
+          <img src="images/testimonials/person5.jpg" class="img-fluid" data-toggle="tooltip" title="十一- Designer" alt="testimonial" />
+          <img src="images/testimonials/person6.jpg" class="img-fluid" data-toggle="tooltip" title="小宝 - 前端攻城狮、UI设计师" alt="testimonial" />
+        </div>
+
+        <div class="team-row d-flex justify-content-around flex-wrap">
+          <img src="images/testimonials/person7.jpg" class="img-fluid" data-toggle="tooltip" title="小崔 - PM" alt="testimonial" />
+          <img src="images/testimonials/person8.jpg" class="img-fluid" data-toggle="tooltip" title="三毛 - web全栈攻城狮" alt="testimonial" />
+          <img src="images/testimonials/person9.jpg" class="img-fluid" data-toggle="tooltip" title="小猫 - 软件攻城狮" alt="testimonial" />
+          <img src="images/testimonials/person12.jpg" class="img-fluid" data-toggle="tooltip" title="燕子 - 前端攻城狮" alt="testimonial" />
+          <img src="images/testimonials/person11.jpg" class="img-fluid" data-toggle="tooltip" title="猴子- 前端攻城狮" alt="testimonial" />
+          <img src="images/testimonials/person7.jpg" class="img-fluid" data-toggle="tooltip" title="Rachel Dawes - PM" alt="testimonial" />
+        </div>
+      </div>
+    </div>
+    <!--团队成长-->
+</div>
+
+ <!--加入我们-->
+<div class="part-bg container-fuild">
+    <h2 class="part-title header">加入我们</h2>
+    <div class="pricing-dark-section">
+        <div class="container">
+            <div class="charts">
+            <div class="row">
+                <div class="col-md-4">
+                <div class="chart">
+                    <div class="scheme quantity">
+                    <h5 class="dollar">移动端解决方案</h5>
                     </div>
+                    <div class="plan-name">Freelance</div>
+                    <div class="specs">
+                    <div class="point spec">
+                        <!--<span class="variable">5</span>-->
+                    精细化管理
+                    </div>
+                    <div class="spec">
+                        <span class="variable"></span>
+                        设备检测
+                    </div>
+                    <div class="spec">
+                        <!--<span class="variable">Virtual</span>-->
+                        快速接入
+                    </div>
+                    </div>
+                    <a href="features.html" class="about-btn btn btn-primary active" style="padding: 8px 20px">了解更多</a>
                 </div>
-
-                <!--<div class="team-person row">-->
-                    <!--<div class="team-person-left col-md-4">-->
-                        <!--<img src="images/testimonials/person1.jpg" alt="" style="width:200px;height: auto">-->
-                    <!--</div>-->
-                    <!--<div class="team-person-right col-md-8">-->
-                        <!--<h4>路远</h4>-->
-                        <!--<h5>创始人兼CEO</h5>-->
-                        <!--<p>2012年入选福布斯“中国30位30岁以下创业者”</p>-->
-                        <!--<p>在创建涂鸦科技之前, 王学集先后发起社区/云计算/O2O相关多个项目, 积累了12年的创业经验。 王学集2008年加入阿里集团, 随后成为阿里云的第一任负责人, 带领阿里云成为国内云计算的行业标杆, 并先后在阿里资本与手机淘宝担任重要职位。</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <div class="family">
-                    <div class="col-lg-12 order-lg-1 info">
-                        <div class="family-header text-center">
-                            <h2>GBROS FAMILY</h2>
-                            <p class="mt-3">一个家一样的存在</p>
-                        </div>
-                        <div class="blog-timeline-wrapper">
-                            <div class="container">
-                                <div class="post left">
-                                    <div class="marker"></div>
-                                    <div class="entry" style="background-image:url('images/bgs/us1.jpg');">
-                                        <div class="intro">
-                                            <!--<h4>Art is part of life</h4>-->
-                                            <p>
-                                                两个对世界充满幻想的女生
-                                                <br />
-                                                Two girls full of fantasy to the world
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post">
-                                    <div class="marker"></div>
-                                    <div class="entry" style="background-image:url('images/bgs/us2.jpg');">
-                                        <div class="intro">
-                                            <!--<h4>Art is part of life</h4>-->
-                                            <p>
-                                                每个人的脸上洋溢着年终的笑容
-                                                <br />
-                                                A smile on every face with year-end.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-left post left">
-                                    <div class="marker"></div>
-                                    <div class="entry" style="background-image:url('images/bgs/us3.jpg');">
-                                        <div class="intro">
-                                            <!--<h4>Art is part of life</h4>-->
-                                            <p>吃完这碗饭，明年继续干
-                                                <br />
-                                                after eating Continue to do it.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-right post">
-                                    <div class="marker"></div>
-                                    <div class="entry smallish" style="background-image:url('images/bgs/us4.jpg');">
-                                        <div class="intro">
-                                            <!--<h4>Day at the Beach</h4>-->
-                                            <p>
-                                                音乐
-                                                <br />
-                                                Guitar Music
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-left post left">
-                                    <div class="marker"></div>
-                                    <div class="entry" style="background-image:url('images/bgs/us5.jpg');">
-                                        <div class="intro">
-                                            <!--<h4>Art is part of life</h4>-->
-                                            <p>
-                                                跳起来
-                                                <br />
-                                                shake a leg.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-right post">
-                                    <div class="marker"></div>
-                                    <div class="entry smallish" style="background-image:url('images/bgs/us6.jpg');">
-                                        <div class="intro">
-                                            <!--<h4>Day at the Beach</h4>-->
-                                            <p>
-                                                唱起来
-                                                <br />
-                                                chorus.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-left post left">
-                                    <div class="marker"></div>
-                                    <div class="entry" style="background-image:url('images/bgs/us7.jpg');">
-                                        <div class="intro">
-                                            <!--<h4>Art is part of life</h4>-->
-                                            <p>
-                                                干杯
-                                                <br />
-                                                Cheers!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                                <div class="middle-btn pager">
-                                    <a href="#" class="about-btn btn btn-primary active" style="padding: 10px 32px">更多</a>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                <div class="chart">
+                    <div class="scheme quantity">
+                    <h5 class="dollar">工业类解决方案</h5>
                     </div>
+                    <div class="plan-name">Freelance</div>
+                    <div class="specs">
+                    <div class="point spec">
+                        <!--<span class="variable">5</span>-->
+                        精细化管理
+                    </div>
+                    <div class="spec">
+                        <span class="variable"></span>
+                        设备检测
+                    </div>
+                    <div class="spec">
+                        <!--<span class="variable">Virtual</span>-->
+                        快速接入
+                    </div>
+                    </div>
+                    <a href="features.html" class="about-btn btn btn-primary active" style="padding: 8px 20px">了解更多</a>
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="chart">
+                    <div class="scheme quantity">
+                    <h5 class="dollar">企业类解决方案</h5>
+                    </div>
+                    <div class="plan-name">Freelance</div>
+                    <div class="specs">
+                    <div class="point spec">
+                        <!--<span class="variable">5</span>-->
+                        精细化管理
+                    </div>
+                    <div class="spec">
+                        <span class="variable"></span>
+                        设备检测
+                    </div>
+                    <div class="spec">
+                        <!--<span class="variable">Virtual</span>-->
+                        快速接入
+                    </div>
+                    </div>
+                    <a href="features.html" class="about-btn btn btn-primary active" style="padding: 8px 20px">了解更多</a>
+                </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="tab-front">
-                <!--宣传轮播图-->
-                <div class="about-us-slider">
-                    <div class="container">
-                        <div class="header">
-                            <h3>我们的工作环境</h3>
-                        </div>
-                        <div class="flexslider" style="position: relative">
-                            <ul class="slides">
-                                <li>
-                                    <img src="images/join1.jpg"/>
-                                </li>
-                                <li>
-                                    <img src="images/join2.jpg"/>
-                                </li>
-                                <li>
-                                    <img src="images/join3.jpg" />
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="team-text">
-                            <h4>如果我们恰好是一类人,欢迎加入!</h4>
-                            <p>在这里不用担心有无穷的加班，气氛压抑的办公室，话少秃头的程序员。梦想、情怀让这一群80、90后聚集在一起,不一样的思维,畅谈天涯海角。</p>
-                            <p>我们不是工作生活不分开的死宅，每年两次的集体旅行；咖啡馆满墙的图书；每日狼多肉少的下午茶；春日里的踏青...</p>
-                            <p>疲劳的时候,一杯饮品,一本书,一个人,享受安逸。</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="family">
-                    <div class="post-bar">
-                        <h4>java 攻城狮</h4>
-                        <div class="post-bar-first">
-                            <h5>岗位职责</h5>
-                            <p>- 主导不同业务、技术改造类项目的系统分析、设计工作,承担核心功能、公共核心模块的代码编写,确保项目进度和质量;</p>
-                            <p>- 主导系统架构设计及系统框架的评估选型、接口规范制定、技术文档编写等;</p>
-                            <p>- 协助业务方梳理业务需求,提供业务规划方案、架构设计方案,并能根据方案展开研发工作 指导和培训工程师。</p>
-                        </div>
-                        <div class="post-bar-first">
-                            <h5>任职要求</h5>
-                            <p>- 5年以上Java服务端开发经验,对于用过的开源框架,能了解到它的原理和机制;</p>
-                            <p>- 扎实的Java编程基础,熟悉各种设计模式,理解io、多线程、集合等基础框架,对JVM原理有一定的了解;</p>
-                            <p>- 熟练掌握Spring/SpringMVC/Mybatis或其他主流JAVA框架;</p>
-                            <p>- 熟练掌握Mysql/PostgreSQL数据库中的一种或多种;</p>
-                            <p>- 熟悉NoSQL、MQ、Cache等中间件的机制和应用;</p>
-                            <p>- 有良好的组件级建模能力,能够设计复杂业务、高并发、大数据量的系统;</p>
-                            <p>- 熟悉Dubbo/Spring Cloud或其他服务治理架构者优先。</p>
-                        </div>
-                    </div>
-                    <div class="post-bar">
-                        <h4>软件攻城狮 IOS/Android</h4>
-                        <div class="post-bar-first">
-                            <h5>岗位职责</h5>
-                            <p>- 负责iOS/Android项目基础框架和优化研发,参与讨论软件模块功能、操作流程设计;</p>
-                            <p>- 根据客户要求调试、编码配置程序;</p>
-                            <p>- 后续维护和解决技术故障。</p>
-                        </div>
-                        <div class="post-bar-first">
-                            <h5>任职要求</h5>
-                            <p>- 计算机、软件、通信、电子等相关专业优先;</p>
-                            <p>- 3年以上C/C++/Objective-C开发经验,1年以上iOS/Android开发经验,对iOS/Android开发平台有深入的了解和浓厚的兴趣;</p>
-                            <p>- 掌握MAC或Unix系统工作机制,熟悉SQL语言,熟悉TCP/IP协议及网络编程;</p>
-                            <p>- 熟悉软件开发管理过程,有良好的编程规范及开发技能;</p>
-                            <p>- 热爱软件开发,有较强的自学能力、分析及解决问题能力,良好的团队合作能力。</p>
-                        </div>
-                    </div>
-                    <div class="post-bar">
-                        <h4>web前端攻城狮</h4>
-                        <div class="post-bar-first">
-                            <h5>岗位职责</h5>
-                            <p>- 根据产品原型开发前端代码,实现产品的页面交互和数据逻辑展示,负责前端代码编写与重构;</p>
-                            <p>- 解决兼容性问题,优化前端性能,改善用户体验;</p>
-                            <p>- 统一可重用组件,规范前端模块化开发。</p>
-                        </div>
-                        <div class="post-bar-first">
-                            <h5>任职要求</h5>
-                            <p>- 计算机等相关专业,乐于钻研WEB前端效果的技巧与实现;</p>
-                            <p>- 对Web技术创新及富互联网应用开发有浓厚兴趣;</p>
-                            <p>- 深刻理解各种Web前端技术（html、css、js等,能够跨浏览器编写高效的前端页面;</p>
-                            <p>- 有丰富的Web网站开发和设计经验,有优秀Web前端交互经验者优先;</p>
-                        </div>
-                    </div>
-                    <div class="post-bar" style="border: 0">
-                        <h4>web全栈攻城狮</h4>
-                        <div class="post-bar-first">
-                            <h5>岗位职责</h5>
-                            <p>- 掌握多种技能,并能利用多种技能独立完成产品的人, 保证现有系统稳定运行。</p>
-                        </div>
-                        <div class="post-bar-first">
-                            <h5>任职要求</h5>
-                            <p>- 熟悉X86架构、linux系统应用和管理;</p>
-                            <p>- 熟悉常见运维工具如Nagios/Ganglia/Zabbix/Snmp等;</p>
-                            <p>- 熟练使用Shell/Python等脚本、有C/Java后端开发经验者加分;</p>
-                            <p>- 优秀的分析和解决问题能力,良好的团队协作精神,有责任心;</p>
-                            <p>- 非常欢迎喜欢钻研开源技术及自动化技术、Linux重度用户、Linux全栈工程师.</p>
-                        </div>
-                    </div>
-                    <div class="middle-btn send-btn">
-                        <a class="about-btn" href="" >
-                            发送简历至
-                        </a>
-                        <!--<button type="button" class="about-btn btn active">发送简历至</button>-->
-                    </div>
-                </div>
-            </div>
-
-            <!--博客-->
-            <div class="tab-pane fade" id="tab-responsive">
-                <div class="blog-posts">
-                    <div class="container">
-                        <div class="row">
-                                <div class="post">
-                                    <!--<div class="video">-->
-                                    <!--<div class="iframe-wrapper">-->
-                                    <!--<iframe src="https://player.vimeo.com/video/22439234" width="620" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-
-                                    <div class="title">
-                                        <a href="blogpost.html">英文版Mac 通过Package Control安装解决Sublime Text3中文乱码问题</a>
-                                    </div>
-                                    <p class="intro">
-                                        对于Sublime Text3，使用ctrl+` 打开Sublime Text Console，运行下面这段代码
-                                        import urllib.request,os,hashlib; h = ’2deb499853c4371624f5a07e27c334aa’ + ‘bf8c4e67d14fb0525ba4f89698a6d7e1′; pf = ‘Package Control.sublime-package’; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( ‘http://packagecontrol.io/‘ + pf.replace(‘ ‘, ‘%20′)).read(); dh = hashlib.sha256(by).hexdigest(); print(‘Error validating download (got %s instead of %s), please try manual install’ % (dh, h)) if dh != h else open(os.path.join( ipp, pf), ‘wb’ ).write(by)
-                                    </p>
-                                    <a href="blogpost.html" class="continue-reading">阅读全文</a>
-                                </div>
-
-                        </div>
-                        <div class="pages" style="width: 200px;margin: 0 auto;">
-                            <ul class="pagination">
-                                <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 </div>
 
-<!--<div class="container" style="margin-top: 80px">-->
-    <!--&lt;!&ndash; Nav tabs &ndash;&gt;-->
-    <!--<ul class="team-nav nav nav-tabs justify-content-center" role="tablist">-->
-        <!--<li role="presentation"><a href="#home" aria-controls="home"  class="active" role="tab" data-toggle="tab">关于团队</a></li>-->
-        <!--<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">加入我们</a></li>-->
-        <!--<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">团队博客</a></li>-->
-    <!--</ul>-->
-
-    <!--&lt;!&ndash; Tab panes &ndash;&gt;-->
-    <!--<div class="tab-content">-->
-
-        <!--&lt;!&ndash;团队介绍&ndash;&gt;-->
-        <!--<div role="tabpanel" class="tab-pane active" id="home">-->
-            <!--&lt;!&ndash;宣传轮播图&ndash;&gt;-->
-            <!--<div class="about-us-slider">-->
-                <!--<div class="container">-->
-                    <!--<div class="header">-->
-                        <!--<h3>不一样的我们</h3>-->
-                    <!--</div>-->
-                    <!--<div class="flexslider" style="position: relative">-->
-                        <!--<ul class="slides">-->
-                            <!--<li>-->
-                                <!--<img src="images/about1.jpg"/>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<img src="images/about2.jpg"/>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<img src="images/about3.jpg" />-->
-                            <!--</li>-->
-                        <!--</ul>-->
-                        <!--<div class="team-text">-->
-                            <!--<p>在某个角落,存在着这样一群人,怀揣着改变世界的梦想,不分性别年龄,专注于软件设计和开发,用户交互体验和数据可视化研究。</p>-->
-                            <!--<p>他们以创新、技术,为生命意义,积极参与前沿技术和开源项目,希望建立一支本土化、工程师文化驱动的纯技术团队,共同为现代尖端技术、文化做出自己的贡献。</p>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash;<div class="team-row row">&ndash;&gt;-->
-            <!--&lt;!&ndash;<div class="col-lg-6 order-lg-2 image">&ndash;&gt;-->
-            <!--&lt;!&ndash;<img src="images/team1.jpg" class="img-fluid" alt="pic2" />&ndash;&gt;-->
-            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-            <!--&lt;!&ndash;<div class="introduction col-lg-6 order-lg-1 info">&ndash;&gt;-->
-            <!--&lt;!&ndash;<h4>不一样的我们</h4>&ndash;&gt;-->
-            <!--&lt;!&ndash;<p>&ndash;&gt;-->
-            <!--&lt;!&ndash;在某个角落,存在着这样一群人,怀揣着改变世界的梦想,不分性别年龄专注于软件设计和开发,用户交互体验和数据可视化研究。&ndash;&gt;-->
-            <!--&lt;!&ndash;</p>&ndash;&gt;-->
-            <!--&lt;!&ndash;<p>&ndash;&gt;-->
-            <!--&lt;!&ndash;他们以创新、技术,为生命意义,积极参与前沿技术和开源项目,希望建立一支本土化,工程师文化驱动的纯技术团队,共同为现代尖端技术、文化做出自己的贡献。&ndash;&gt;-->
-            <!--&lt;!&ndash;</p>&ndash;&gt;-->
-            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-            <!--<div class="family">-->
-                <!--<div class="col-lg-12 order-lg-1 info">-->
-                    <!--<div class="family-header text-center">-->
-                        <!--<h2>GBROS FAMILY</h2>-->
-                        <!--<p class="mt-3">一个家一样的存在</p>-->
-                    <!--</div>-->
-                    <!--<div class="blog-timeline-wrapper">-->
-                        <!--<div class="container">-->
-                            <!--<div class="post left">-->
-                                <!--<div class="marker"></div>-->
-                                <!--<div class="entry" style="background-image:url('images/bgs/us1.jpg');">-->
-                                    <!--<div class="intro">-->
-                                        <!--&lt;!&ndash;<h4>Art is part of life</h4>&ndash;&gt;-->
-                                        <!--<p>-->
-                                            <!--两个对世界充满幻想的女生-->
-                                            <!--<br />-->
-                                            <!--Two girls full of fantasy to the world-->
-                                        <!--</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="post">-->
-                                <!--<div class="marker"></div>-->
-                                <!--<div class="entry" style="background-image:url('images/bgs/us2.jpg');">-->
-                                    <!--<div class="intro">-->
-                                        <!--&lt;!&ndash;<h4>Art is part of life</h4>&ndash;&gt;-->
-                                        <!--<p>-->
-                                            <!--每个人的脸上洋溢着年终的笑容-->
-                                            <!--<br />-->
-                                            <!--A smile on every face with year-end.-->
-                                        <!--</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="post-left post left">-->
-                                <!--<div class="marker"></div>-->
-                                <!--<div class="entry" style="background-image:url('images/bgs/us3.jpg');">-->
-                                    <!--<div class="intro">-->
-                                        <!--&lt;!&ndash;<h4>Art is part of life</h4>&ndash;&gt;-->
-                                        <!--<p>吃完这碗饭，明年继续干-->
-                                            <!--<br />-->
-                                            <!--after eating Continue to do it.-->
-                                        <!--</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="post-right post">-->
-                                <!--<div class="marker"></div>-->
-                                <!--<div class="entry smallish" style="background-image:url('images/bgs/us4.jpg');">-->
-                                    <!--<div class="intro">-->
-                                        <!--&lt;!&ndash;<h4>Day at the Beach</h4>&ndash;&gt;-->
-                                        <!--<p>-->
-                                            <!--音乐-->
-                                            <!--<br />-->
-                                            <!--Guitar Music-->
-                                        <!--</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="post-left post left">-->
-                                <!--<div class="marker"></div>-->
-                                <!--<div class="entry" style="background-image:url('images/bgs/us5.jpg');">-->
-                                    <!--<div class="intro">-->
-                                        <!--&lt;!&ndash;<h4>Art is part of life</h4>&ndash;&gt;-->
-                                        <!--<p>-->
-                                            <!--跳起来-->
-                                            <!--<br />-->
-                                            <!--shake a leg.-->
-                                        <!--</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="post-right post">-->
-                                <!--<div class="marker"></div>-->
-                                <!--<div class="entry smallish" style="background-image:url('images/bgs/us6.jpg');">-->
-                                    <!--<div class="intro">-->
-                                        <!--&lt;!&ndash;<h4>Day at the Beach</h4>&ndash;&gt;-->
-                                        <!--<p>-->
-                                            <!--唱起来-->
-                                            <!--<br />-->
-                                            <!--chorus.-->
-                                        <!--</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="post-left post left">-->
-                                <!--<div class="marker"></div>-->
-                                <!--<div class="entry" style="background-image:url('images/bgs/us7.jpg');">-->
-                                    <!--<div class="intro">-->
-                                        <!--&lt;!&ndash;<h4>Art is part of life</h4>&ndash;&gt;-->
-                                        <!--<p>-->
-                                            <!--干杯-->
-                                            <!--<br />-->
-                                            <!--Cheers!-->
-                                        <!--</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="clearfix"></div>-->
-                            <!--<div class="middle-btn pager">-->
-                                <!--<a href="#" class="about-btn btn btn-primary active" style="padding: 10px 32px">更多</a>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-
-        <!--&lt;!&ndash;加入我们&ndash;&gt;-->
-        <!--<div role="tabpanel" class="tab-pane" id="profile">-->
-            <!--&lt;!&ndash;宣传轮播图&ndash;&gt;-->
-            <!--<div class="about-us-slider">-->
-                <!--<div class="container">-->
-                    <!--<div class="header">-->
-                        <!--<h3>我们的工作环境</h3>-->
-                    <!--</div>-->
-                    <!--<div class="flexslider" style="position: relative">-->
-                        <!--<ul class="slides">-->
-                            <!--<li>-->
-                                <!--<img src="images/join1.jpg"/>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<img src="images/join2.jpg"/>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<img src="images/join3.jpg" />-->
-                            <!--</li>-->
-                        <!--</ul>-->
-                    <!--</div>-->
-                    <!--<div class="team-text">-->
-                        <!--<h4>如果我们恰好是一类人,欢迎加入!</h4>-->
-                        <!--<p>在这里不用担心有无穷的加班，气氛压抑的办公室，话少秃头的程序员。梦想、情怀让这一群80、90后聚集在一起,不一样的思维,畅谈天涯海角。</p>-->
-                        <!--<p>我们不是工作生活不分开的死宅，每年两次的集体旅行；咖啡馆满墙的图书；每日狼多肉少的下午茶；春日里的踏青...</p>-->
-                        <!--<p>疲劳的时候,一杯饮品,一本书,一个人,享受安逸。</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--&lt;!&ndash;<div class="team-row row">&ndash;&gt;-->
-            <!--&lt;!&ndash;<div class="col-lg-6 order-lg-2 image">&ndash;&gt;-->
-            <!--&lt;!&ndash;<img src="images/tabs/pic2.png" class="img-fluid" alt="pic3" />&ndash;&gt;-->
-            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-            <!--&lt;!&ndash;<div class="introduction col-lg-6 order-lg-1 info">&ndash;&gt;-->
-            <!--&lt;!&ndash;<h4>如果我们恰好是一类人,欢迎加入!</h4>&ndash;&gt;-->
-            <!--&lt;!&ndash;<p>&ndash;&gt;-->
-            <!--&lt;!&ndash;Whether you want to fill this paragraph with some text like I'm doing right now, this place is perfect to describe some features or anything you want - React has a complete solution for you.&ndash;&gt;-->
-            <!--&lt;!&ndash;</p>&ndash;&gt;-->
-            <!--&lt;!&ndash;<p>&ndash;&gt;-->
-            <!--&lt;!&ndash;You have complete control over the look & feel of your website, we offer the best quality so you take your site up and running in no time.&ndash;&gt;-->
-            <!--&lt;!&ndash;</p>&ndash;&gt;-->
-            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-            <!--<div class="family">-->
-                <!--<div class="post-bar">-->
-                    <!--<h4>java 攻城狮</h4>-->
-                    <!--<div class="post-bar-first">-->
-                        <!--<h5>岗位职责</h5>-->
-                        <!--<p>- 主导不同业务、技术改造类项目的系统分析、设计工作,承担核心功能、公共核心模块的代码编写,确保项目进度和质量;</p>-->
-                        <!--<p>- 主导系统架构设计及系统框架的评估选型、接口规范制定、技术文档编写等;</p>-->
-                        <!--<p>- 协助业务方梳理业务需求,提供业务规划方案、架构设计方案,并能根据方案展开研发工作 指导和培训工程师。</p>-->
-                    <!--</div>-->
-                    <!--<div class="post-bar-first">-->
-                        <!--<h5>任职要求</h5>-->
-                        <!--<p>- 5年以上Java服务端开发经验,对于用过的开源框架,能了解到它的原理和机制;</p>-->
-                        <!--<p>- 扎实的Java编程基础,熟悉各种设计模式,理解io、多线程、集合等基础框架,对JVM原理有一定的了解;</p>-->
-                        <!--<p>- 熟练掌握Spring/SpringMVC/Mybatis或其他主流JAVA框架;</p>-->
-                        <!--<p>- 熟练掌握Mysql/PostgreSQL数据库中的一种或多种;</p>-->
-                        <!--<p>- 熟悉NoSQL、MQ、Cache等中间件的机制和应用;</p>-->
-                        <!--<p>- 有良好的组件级建模能力,能够设计复杂业务、高并发、大数据量的系统;</p>-->
-                        <!--<p>- 熟悉Dubbo/Spring Cloud或其他服务治理架构者优先。</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="post-bar">-->
-                    <!--<h4>软件攻城狮 IOS/Android</h4>-->
-                    <!--<div class="post-bar-first">-->
-                        <!--<h5>岗位职责</h5>-->
-                        <!--<p>- 负责iOS/Android项目基础框架和优化研发,参与讨论软件模块功能、操作流程设计;</p>-->
-                        <!--<p>- 根据客户要求调试、编码配置程序;</p>-->
-                        <!--<p>- 后续维护和解决技术故障。</p>-->
-                    <!--</div>-->
-                    <!--<div class="post-bar-first">-->
-                        <!--<h5>任职要求</h5>-->
-                        <!--<p>- 计算机、软件、通信、电子等相关专业优先;</p>-->
-                        <!--<p>- 3年以上C/C++/Objective-C开发经验,1年以上iOS/Android开发经验,对iOS/Android开发平台有深入的了解和浓厚的兴趣;</p>-->
-                        <!--<p>- 掌握MAC或Unix系统工作机制,熟悉SQL语言,熟悉TCP/IP协议及网络编程;</p>-->
-                        <!--<p>- 熟悉软件开发管理过程,有良好的编程规范及开发技能;</p>-->
-                        <!--<p>- 热爱软件开发,有较强的自学能力、分析及解决问题能力,良好的团队合作能力。</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="post-bar">-->
-                    <!--<h4>web前端攻城狮</h4>-->
-                    <!--<div class="post-bar-first">-->
-                        <!--<h5>岗位职责</h5>-->
-                        <!--<p>- 根据产品原型开发前端代码,实现产品的页面交互和数据逻辑展示,负责前端代码编写与重构;</p>-->
-                        <!--<p>- 解决兼容性问题,优化前端性能,改善用户体验;</p>-->
-                        <!--<p>- 统一可重用组件,规范前端模块化开发。</p>-->
-                    <!--</div>-->
-                    <!--<div class="post-bar-first">-->
-                        <!--<h5>任职要求</h5>-->
-                        <!--<p>- 计算机等相关专业,乐于钻研WEB前端效果的技巧与实现;</p>-->
-                        <!--<p>- 对Web技术创新及富互联网应用开发有浓厚兴趣;</p>-->
-                        <!--<p>- 深刻理解各种Web前端技术（html、css、js等,能够跨浏览器编写高效的前端页面;</p>-->
-                        <!--<p>- 有丰富的Web网站开发和设计经验,有优秀Web前端交互经验者优先;</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="post-bar" style="border: 0">-->
-                    <!--<h4>web全栈攻城狮</h4>-->
-                    <!--<div class="post-bar-first">-->
-                        <!--<h5>岗位职责</h5>-->
-                        <!--<p>- 掌握多种技能,并能利用多种技能独立完成产品的人, 保证现有系统稳定运行。</p>-->
-                    <!--</div>-->
-                    <!--<div class="post-bar-first">-->
-                        <!--<h5>任职要求</h5>-->
-                        <!--<p>- 熟悉X86架构、linux系统应用和管理;</p>-->
-                        <!--<p>- 熟悉常见运维工具如Nagios/Ganglia/Zabbix/Snmp等;</p>-->
-                        <!--<p>- 熟练使用Shell/Python等脚本、有C/Java后端开发经验者加分;</p>-->
-                        <!--<p>- 优秀的分析和解决问题能力,良好的团队协作精神,有责任心;</p>-->
-                        <!--<p>- 非常欢迎喜欢钻研开源技术及自动化技术、Linux重度用户、Linux全栈工程师.</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="middle-btn send-btn">-->
-                    <!--<a class="about-btn" href="" >-->
-                        <!--发送简历至-->
-                    <!--</a>-->
-                    <!--&lt;!&ndash;<button type="button" class="about-btn btn active">发送简历至</button>&ndash;&gt;-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-
-        <!--&lt;!&ndash;团队博客&ndash;&gt;-->
-        <!--<div role="tabpanel" class="tab-pane" id="messages">-->
-            <!--<div class="blog-posts">-->
-                <!--<div class="container">-->
-                    <!--<div class="row">-->
-                        <!--<div class="col-lg-8">-->
-                            <!--<div class="post">-->
-                                <!--&lt;!&ndash;<div class="video">&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<div class="iframe-wrapper">&ndash;&gt;-->
-                                        <!--&lt;!&ndash;<iframe src="https://player.vimeo.com/video/22439234" width="620" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-                                <!--<div class="title">-->
-                                    <!--<a href="blogpost.html">英文版Mac 通过Package Control安装解决Sublime Text3中文乱码问题</a>-->
-                                <!--</div>-->
-                                <!--<div class="author">-->
-                                    <!--<img src="images/testimonials/testimonial2.jpg" class="avatar" alt="author" />-->
-                                    <!--大力, 2014-12-30-->
-                                <!--</div>-->
-                                <!--<p class="intro">-->
-                                    <!--对于Sublime Text3，使用ctrl+` 打开Sublime Text Console，运行下面这段代码-->
-                                    <!--import urllib.request,os,hashlib; h = ’2deb499853c4371624f5a07e27c334aa’ + ‘bf8c4e67d14fb0525ba4f89698a6d7e1′; pf = ‘Package Control.sublime-package’; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( ‘http://packagecontrol.io/‘ + pf.replace(‘ ‘, ‘%20′)).read(); dh = hashlib.sha256(by).hexdigest(); print(‘Error validating download (got %s instead of %s), please try manual install’ % (dh, h)) if dh != h else open(os.path.join( ipp, pf), ‘wb’ ).write(by)-->
-                                <!--</p>-->
-                                <!--<a href="blogpost.html" class="continue-reading">继续阅读</a>-->
-                            <!--</div>-->
-
-                            <!--<div class="post">-->
-                                <!--&lt;!&ndash;<a href="blogpost.html" class="pic">&ndash;&gt;-->
-                                <!--&lt;!&ndash;<img src="images/blogpost1.png" class="img-fluid" alt="blogpost" />&ndash;&gt;-->
-                                <!--&lt;!&ndash;</a>&ndash;&gt;-->
-
-                                <!--<div class="title">-->
-                                    <!--<a href="blogpost.html">梦想让我们成为更好的自己</a>-->
-                                <!--</div>-->
-                                <!--<div class="author">-->
-                                    <!--<img src="images/testimonials/testimonial2.jpg" class="avatar" alt="author" />-->
-                                    <!--大力, 2014-06-27-->
-                                <!--</div>-->
-                                <!--<p class="intro">-->
-                                    <!--每个人生来都是独一无二的，所以多少都会有些自命不凡的期许，就像我小时候一直天真的认为我一定会长到一米八，谁知一米七都没长到，即便是上了大学，我都还一直坚信自己还能再长两厘米。除了这样荒唐的自信以外，我也有过和同龄人一样烂大街的理想，比如要当个科学家、宇航员之类的。但是就如同无情的生活打碎我一米八的憧憬一样，这些理想也早早离我远去了。但我知道，骨子里对自己的期许还在，也许表现出来的是眼高手低，然而，be someone对所有人来说都是一种难以抗拒的诱惑。-->
-                                <!--</p>-->
-                                <!--<a href="blogpost.html" class="continue-reading">继续阅读</a>-->
-                            <!--</div>-->
-
-                            <!--<div class="post">-->
-                                <!--&lt;!&ndash;<a href="blogpost.html" class="pic">&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<img src="images/blogpost2.png" class="img-fluid" alt="blogpost" />&ndash;&gt;-->
-                                <!--&lt;!&ndash;</a>&ndash;&gt;-->
-
-                                <!--<div class="title">-->
-                                    <!--<a href="blogpost.html">【转载】成为一个PHP专家：缺失的环节</a>-->
-                                <!--</div>-->
-                                <!--<div class="author">-->
-                                    <!--<img src="images/testimonials/testimonial4.jpg" class="avatar" alt="author" />-->
-                                    <!--灵通, 2014-062-27-->
-                                <!--</div>-->
-                                <!--<p class="intro">-->
-                                    <!--当浏览各类与PHP相关的博客时，比如Quora上的问题，谷歌群组，简讯和杂志，我经常注意到技能的等级分化。问题都类似于“我如何连接到MySQL数据库？”或者“我该如何扩展邮件系统才能在每小时发送超过一万封邮件，而不需要引入新的服务器？”-->
-                                    <!--<br />-->
-                                    <!--我将PHP能力水平分为4个等级（可能适用于任何编程语言或专业）：初级、中级、专家和精英。-->
-
-                                <!--</p>-->
-                                <!--<a href="blogpost.html" class="continue-reading">继续阅读</a>-->
-                            <!--</div>-->
-
-                            <!--<div class="post">-->
-                                <!--&lt;!&ndash;<a href="blogpost.html" class="pic">&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<img src="images/blogpost3.png" class="img-fluid" alt="blogpost" />&ndash;&gt;-->
-                                <!--&lt;!&ndash;</a>&ndash;&gt;-->
-
-                                <!--<div class="title">-->
-                                    <!--<a href="blogpost.html">The Game of Thrones – 守夜人誓言</a>-->
-                                <!--</div>-->
-                                <!--<div class="author">-->
-                                    <!--<img src="images/testimonials/testimonial3.jpg" class="avatar" alt="author" />-->
-                                    <!--大力, 2013-12-22-->
-                                <!--</div>-->
-                                <!--<p class="intro">-->
-                                    <!--　守夜人誓言：「长夜将至，我从今开始守望，至死方休。我将不娶妻、不封地、不生子。我将不戴宝冠，不争荣宠。我将尽忠职守，生死於斯。我是黑暗中的利剑，长城上的守卫。我是抵御寒冷的烈焰，破晓时分的光线，唤醒眠者的号角，守护王国的坚盾。我将生命与荣耀献给守夜人，今夜如此，夜夜皆然。-->
-                                <!--</p>-->
-                                <!--<a href="blogpost.html" class="continue-reading">继续阅读</a>-->
-                            <!--</div>-->
-                        <!--</div>-->
-
-                        <!--&lt;!&ndash;右侧搜索区域&ndash;&gt;-->
-                        <!--<div class="col-lg-4 sidebar">-->
-                            <!--<div class="search">-->
-                                <!--<form>-->
-                                    <!--<span class="icomoon-search"></span>-->
-                                    <!--<input type="text" name="q" placeholder="输入关键字" />-->
-                                <!--</form>-->
-                            <!--</div>-->
-                            <!--&lt;!&ndash;<div class="updates">&ndash;&gt;-->
-                                <!--&lt;!&ndash;<strong>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;Free blog updates&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<i class="fa fa-rss"></i>&ndash;&gt;-->
-                                <!--&lt;!&ndash;</strong>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<p>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;Never miss an update.&ndash;&gt;-->
-                                    <!--&lt;!&ndash;Sign up  to receieve an email whenever we post something in the blog.&ndash;&gt;-->
-                                <!--&lt;!&ndash;</p>&ndash;&gt;-->
-                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<div class="follow-tw">&ndash;&gt;-->
-                                <!--&lt;!&ndash;<img src="images/twitterfollow.png" alt="follow-tw" />&ndash;&gt;-->
-                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                            <!--<div class="best-hits">-->
-                                <!--<strong>推荐:</strong>-->
-                                <!--<a href="#">The Game of Thrones – 守夜人誓言</a>-->
-                                <!--<a href="#">【转载】成为一个PHP专家：缺失的环节</a>-->
-                                <!--<a href="#">梦想让我们成为更好的自己</a>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--<div class="pages" style="width: 200px;margin: 0 auto;">-->
-                        <!--<ul class="pagination">-->
-                            <!--<li class="page-item"><a class="page-link" href="#">&laquo;</a></li>-->
-                            <!--<li class="page-item"><a class="page-link" href="#">1</a></li>-->
-                            <!--<li class="page-item"><a class="page-link" href="#">2</a></li>-->
-                            <!--<li class="page-item"><a class="page-link" href="#">3</a></li>-->
-                            <!--<li class="page-item"><a class="page-link" href="#">&raquo;</a></li>-->
-                        <!--</ul>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-
-<!--</div>-->
+<!--团队博客-->
+<div class="container part-content">
+    <h2 class="part-title header">团队博客</h2>
+    <div class="card-columns">
+        <div class="card">
+            <img class="card-img-top img-fluid" src="images/blog1.jpg" alt="Card image cap">
+            <div class="card-body">
+            <h4 class="card-title">批处理已死，Kafka 当道</h4>
+            <p class="card-text">什么是 Kafka？Apache Kafka 是 LinkedIn 开源的分布式消息系统，在 LinkedIn 目前每天处理几十万亿条的消息...</p>
+            </div>
+        </div>
+        <div class="card p-3">
+            <blockquote class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>
+                <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+            </footer>
+            </blockquote>
+        </div>
+        <div class="card">
+            <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card bg-primary text-white p-3 text-center">
+            <blockquote class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+            <footer>
+                <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+            </footer>
+            </blockquote>
+        </div>
+        <div class="card text-center">
+            <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img img-fluid" src="images/blog2.jpg" alt="Card image">
+        </div>
+        <div class="card p-3 text-right">
+            <blockquote class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>
+                <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+            </footer>
+            </blockquote>
+        </div>
+        <div class="card">
+            <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--页脚-->
 <div class="footer">
