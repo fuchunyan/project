@@ -16,27 +16,24 @@
    font-size: 16px;
 }
 
-.about-address h1,.project p,.news-right a>h5,.blog-showcase .posts .pic p{
+.about-address h1,.project p,.news-right a>h5,.blog-showcase .posts .pic p,.portfolio-hero .sub-text,
+.portfolio-header p{
    font-size: 18px;
 }
 
-.blog-posts .post .title{
-   font-size: 20px !important;
+.about-us-slider .header h3,.family-header h2,.blog-posts .post .title{
+   font-size: 24px;
 }
 
-.about-us-slider .header h3,.family-header h2,.features-tabs-section .header h3{
-   font-size: 23px;
-}
-
-.contact-us h3,.position-text p,.blog-content title{
+.contact-us h3,.position-text p, .features-tabs-section .header h3{
    font-size: 26px;
 }
-.scheme h5.pricing-dark-section .charts .chart .specs .spec,.form-control,.team-nav li a,.team-nav li a.active,.introduction h4,.family-header h2
-,.post-bar h4,.post-bar h5{
+.scheme h5.pricing-dark-section .charts .chart .specs .spec,.form-control,.team-nav li a,.team-nav li a.active,
+.introduction h4,.family-header h2,.post-bar h4,.post-bar h5{
    font-weight: 400;
 }
 
-.contact-us h3,.about-btn,.btn-primary.active,.news-right a>h5,.position-text p,.blog-content title{
+.contact-us h3,.about-btn,.btn-primary.active,.news-right a>h5,.position-text p,.blog-posts .post .title{
    font-weight: 500;
 }
 
@@ -55,6 +52,7 @@
 /*首页*/
 .index-customer .index-logo img{
    width: 80px !important;
+   opacity: .8;
 }
 
 .scheme h5{
@@ -63,6 +61,63 @@
 
 .slider-section,.blog-showcase{
    margin-top: 120px;
+}
+
+.features-tabs-section .tabs-wrapper .nav-tabs a{
+   padding: 0 64px 20px;
+}
+
+
+/*产品与服务*/
+.index-hero {
+   overflow: hidden;
+   background: #4b4848;
+   background-size: cover;
+   background-image: url(../images/index-hero.jpg);
+   height: 750px;
+   position: relative;
+   padding-top: 220px;
+}
+
+.portfolio-hero{
+   height: 450px;
+}
+
+.portfolio-hero .hero-text,.portfolio-hero .sub-text{
+   width: 100%;
+}
+
+.services-intro p{
+   margin-bottom: 12px;
+}
+
+.portfolio-services .services{
+   padding-bottom: 60px;
+}
+
+.portfolio-services-grid{
+   margin-top: 70px;
+}
+
+.portfolio-header p{
+   color: #2279ad;
+}
+
+
+/*解决方案*/
+.features-tabs-section .tabs-wrapper .solve-nav a{
+   padding: 0 100px 20px;
+}
+
+.architecture-box{
+   background-color:#fff;
+   padding: 100px 0;
+}
+.architecture-img{
+   width:800px;
+   height: 560px;
+   overflow: hidden;
+   margin: 0 auto;
 }
 
 /*关于我们*/
@@ -89,10 +144,6 @@
 .contact-us h3{
    color: #444;
    line-height: 25px;
-}
-
-.about-us-team .team .team-row {
-   margin-bottom: 48px !important;
 }
 
 .contact-box-right{
@@ -159,35 +210,6 @@
 
 
 /*团队介绍*/
-
-/*原来的*/
-/*.team-nav li a{*/
-   /*color: #888;*/
-   /*border: 0;*/
-   /*padding: 0 40px 20px;*/
-   /*margin: 0 5px;*/
-   /*display: inline-block;*/
-   /*position: relative;*/
-   /*text-decoration: none;*/
-   /*transition: color .25s linear;*/
-/*}*/
-
-/*.team-nav li a.active{*/
-   /*border-bottom: 0;*/
-   /*color: #2b69a2;*/
-   /*border-bottom: 1px solid #7ba3c9;*/
-   /*margin-bottom: -1px;*/
-/*}*/
-
-/*.introduction h4{*/
-   /*color: #2b69a2;*/
-/*}*/
-
-/*.introduction p{*/
-   /*color: #6c7279;*/
-   /*margin-top: 20px;*/
-   /*line-height: 24px;*/
-/*}*/
 
 /*新的*/
 .team-us{
@@ -482,10 +504,18 @@
 
 
 /*页脚*/
+.footer {
+   background: #fff;
+   padding-top: 60px;
+   margin-top: 0;
+   padding-bottom: 30px;
+}
+
 .footer .menu h3{
-   font-size: 18px !important;
+   font-size: 16px;
+   font-weight: 500;
    letter-spacing: 0 !important;
-   color: #fff;
+   color: #504f4f;
 }
 
 .footer .menu ul li a,.footer .menu ul li span {
@@ -493,7 +523,7 @@
    line-height: 14px !important;
    margin: 12px 0;
    font-weight: 400 !important;
-   color: #fff;
+   color: #89a1c0;
 }
 
 .footer .menu ul li{
@@ -501,50 +531,34 @@
 }
 
 .footer .menu ul .contact-phone{
-   margin-bottom: 24px;
+   margin-bottom: 22px;
    line-height: 14px;
+}
+
+.footer .credits p{
+   color: #a1aab6;
+}
+
+.footer .menu ul li a:hover{
+   color: #000;
+}
+
+.footer-color .menu h3,.footer-color .menu ul li a,.footer-color .menu ul li span,.footer-color .menu ul li a:hover,.footer-color .menu ul li span:hover {
+   color: #fff;
 }
 
 
 
 
-/*@media (min-width: 992px){*/
-
-   /*!*博客*!*/
-   /*.col-lg-8 {*/
-      /*-ms-flex: 0 0 66.666667%;*/
-      /*flex: 0 0 66.666667%;*/
-      /*max-width: 59.666667%;*/
-   /*}*/
-/*}*/
-
-/*@media (min-width: 768px){*/
-
-   /*!*快讯内容*!*/
-   /*.col-md-3 {*/
-      /*-ms-flex: 0 0 25%;*/
-      /*flex: 0 0 22%;*/
-      /*max-width: 22%;*/
-   /*}*/
-
-   /*.col-md-4 {*/
-      /*-ms-flex: 0 0 33.333333%;*/
-      /*flex: 0 0 30.333333%;*/
-      /*max-width: 30.333333%;*/
-   /*}*/
-/*}*/
-
-/*@media (min-width: 992px){*/
-
-   /*!*快讯内容*!*/
-   /*.portfolio-item-showcase .project .description p {*/
-      /*width: 100%;*/
-   /*}*/
-/*}*/
 
 
-/*小屏幕*/
-
-@media screen and (max-width: 992px) {
-
+@media (min-width: 992px){
+   .navbar.bg-transparent {
+      background-color: transparent!important;
+      box-shadow: none!important;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      z-index: 999;
+   }
 }
