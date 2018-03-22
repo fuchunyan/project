@@ -4,8 +4,11 @@
     padding-top: 150px;
 }
 
-.photo-wall.cta-bg.my-4 h1 {
+.font-weight-3 {
     font-weight: 300;
+}
+
+.photo-wall.cta-bg.my-4 h1 {
     color: #fff;
 }
 
@@ -20,6 +23,7 @@
 .part-title.header {
     color: #444;
     line-height: 25px;
+    font-size: 28px;
     margin-bottom: 25px;
     text-align: center
 }
@@ -28,15 +32,50 @@
     padding-bottom: 35px
 }
 
-.about-us-team>.stats>.col-sm-3 {
-    text-align: center
+.about-us-team>.stats>.col-sm-3 span {
+    font-size: 3.125em;
+    font-weight: 200;
+    color: #21a79b
 }
 
 .about-us-team .header {
-    font-size: 2rem !important;
+    font-size: 28px !important;
+    line-height: 25px;
 }
 
 .part-bg {
     background-color: #F6F9FE;
     padding: 100px 0
+}
+
+.part-bg .join-us.pricing-dark-section {
+    background: transparent;
+    border: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.part-bg .join-us.pricing-dark-section .charts .chart {
+    box-shadow: 0 0 2px 0 rgba(181, 181, 181, 0);
+    height: 825px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    top: 0
+}
+
+.part-bg .join-us.pricing-dark-section .charts .chart .plan-name {
+    width: 100%
+}
+
+.part-bg .join-us.pricing-dark-section .charts .chart .dollar {
+    color: #21a79b
+}
+
+.part-bg .join-us.pricing-dark-section .charts .chart .specs ul li {
+    line-height: 1.7;
+}
+
+.card-body>p {
+    font-weight: 300;
 }
