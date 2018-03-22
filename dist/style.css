@@ -3,11 +3,8 @@
    /*box-sizing: initial;*/
 /*}*/
 
-.news-icon i,.news-project-time i{
-   font-size: 14px;
-}
 
-.team-text p,.form-control,.about-btn,.btn-primary.active,.post-bar-first p,.news-right a>span{
+.team-text p,.form-control,.about-btn,.btn-primary.active,.post-bar-first p,.news-right a>span,.news-icon i,.news-project-time i{
    font-size: 14px;
 }
 
@@ -15,7 +12,7 @@
    font-size: 15px;
 }
 
-.team-text h4,.post-bar h5,.news-right a>p{
+.team-text h4,.post-bar h5,.news-right a>p,.team-text-intr p,.features-tabs-section .header p,.family-header p{
    font-size: 16px;
 }
 
@@ -27,7 +24,11 @@
    font-size: 20px !important;
 }
 
-.contact-us h3{
+.about-us-slider .header h3,.family-header h2,.features-tabs-section .header h3{
+   font-size: 23px;
+}
+
+.contact-us h3,.position-text p{
    font-size: 26px;
 }
 .scheme h5.pricing-dark-section .charts .chart .specs .spec,.form-control,.team-nav li a,.team-nav li a.active,.introduction h4,.family-header h2
@@ -35,7 +36,7 @@
    font-weight: 400;
 }
 
-.contact-us h3,.about-btn,.btn-primary.active,.news-right a>h5{
+.contact-us h3,.about-btn,.btn-primary.active,.news-right a>h5,.position-text p{
    font-weight: 500;
 }
 
@@ -154,45 +155,84 @@
 
 
 /*团队介绍*/
-.team-nav li a{
-   color: #888;
-   border: 0;
-   padding: 0 40px 20px;
-   margin: 0 5px;
-   display: inline-block;
-   position: relative;
-   text-decoration: none;
-   transition: color .25s linear;
+
+/*原来的*/
+/*.team-nav li a{*/
+   /*color: #888;*/
+   /*border: 0;*/
+   /*padding: 0 40px 20px;*/
+   /*margin: 0 5px;*/
+   /*display: inline-block;*/
+   /*position: relative;*/
+   /*text-decoration: none;*/
+   /*transition: color .25s linear;*/
+/*}*/
+
+/*.team-nav li a.active{*/
+   /*border-bottom: 0;*/
+   /*color: #2b69a2;*/
+   /*border-bottom: 1px solid #7ba3c9;*/
+   /*margin-bottom: -1px;*/
+/*}*/
+
+/*.introduction h4{*/
+   /*color: #2b69a2;*/
+/*}*/
+
+/*.introduction p{*/
+   /*color: #6c7279;*/
+   /*margin-top: 20px;*/
+   /*line-height: 24px;*/
+/*}*/
+
+/*新的*/
+.team-us{
+   width: 100%;
+   height: 500px;
+   overflow: hidden;
 }
 
-.team-nav li a.active{
-   border-bottom: 0;
-   color: #2b69a2;
-   border-bottom: 1px solid #7ba3c9;
-   margin-bottom: -1px;
+.flexslider{
+   border:0;
 }
 
-.introduction h4{
-   color: #2b69a2;
+.team-person{
+   margin-top: 48px;
 }
 
-.introduction p{
-   color: #6c7279;
-   margin-top: 20px;
-   line-height: 24px;
+.team-person-left{
+   text-align: right;
 }
 
-.family,.news-blog,.news-show{
-   margin-top: 80px;
+.team-tab{
+   line-height: 100px;
+}
+
+.nav-tabs .team-tab.active{
+  color: #fff;
+}
+
+.about-team p{
+   margin-bottom: 4px;
+}
+
+.nav-team{
+   margin-top: 48px;
+}
+
+.about-us-slider{
+   margin-top:60px;
+}
+
+.family,.news-blog,.news-show,.about-us,.about-team{
+   margin-top: 100px;
 }
 
 .family-header h2{
    color: #555;
-   font-size: 27px;
 }
 
 .family-header p{
-   font-size: 17px;
    color: #757575;
 }
 
@@ -283,19 +323,49 @@
    margin-top: 40px;
 }
 
-.blog-timeline-wrapper .post .entry.smallish .intro{
-   top: 75% !important;
-}
+/*.blog-timeline-wrapper .post .entry.smallish .intro{*/
+   /*top: 75% !important;*/
+/*}*/
 
 
 /*合作伙伴*/
+.team-banner{
+   width: 100%;
+   height: 400px;
+   overflow: hidden;
+   position: relative;
+}
+
+.team-banner img{
+   width: 100%;
+}
+
+.black-box{
+   width: 100%;
+   height: 400px;
+   background-color: rgba(0,0,0,.6);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.position-text{
+   width: 500px;
+   position: absolute;
+   bottom: 100px;
+   left: 50%;
+   margin-left: -250px;
+   color: #fff;
+   text-align: center;
+}
+
 .project p{
    color:#555 ;
    margin-top: 24px;
    margin-bottom: 0;
 }
 
-.project img{
+.partner-col img{
    width: 80px;
    height: 80px;
 }
@@ -319,7 +389,7 @@
 }
 
 .news-box{
-   margin-bottom: 24px;
+   margin-bottom: 48px;
 }
 .news-right{
    position: relative;
@@ -327,7 +397,7 @@
 }
 
 .news-box .news-right{
-   padding-left: 24px;
+   padding-left: 32px;
 }
 
 .news-right a>h5{
