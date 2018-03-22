@@ -16,7 +16,7 @@
    font-size: 16px;
 }
 
-.about-address h1,.project p,.news-right a>h5{
+.about-address h1,.project p,.news-right a>h5,.blog-showcase .posts .pic p{
    font-size: 18px;
 }
 
@@ -28,7 +28,7 @@
    font-size: 23px;
 }
 
-.contact-us h3,.position-text p{
+.contact-us h3,.position-text p,.blog-content title{
    font-size: 26px;
 }
 .scheme h5.pricing-dark-section .charts .chart .specs .spec,.form-control,.team-nav li a,.team-nav li a.active,.introduction h4,.family-header h2
@@ -36,7 +36,7 @@
    font-weight: 400;
 }
 
-.contact-us h3,.about-btn,.btn-primary.active,.news-right a>h5,.position-text p{
+.contact-us h3,.about-btn,.btn-primary.active,.news-right a>h5,.position-text p,.blog-content title{
    font-weight: 500;
 }
 
@@ -61,6 +61,10 @@
    margin-top: 24px;
 }
 
+.slider-section,.blog-showcase{
+   margin-top: 120px;
+}
+
 /*关于我们*/
 .about-contact{
    border-top: 1px solid #eaeaea;
@@ -74,7 +78,7 @@
    color:#666;
 }
 
-.about-address h1,.contact-box-right h4{
+.about-address h1,.contact-box-right h4,.blog-content title{
    color: #444;
 }
 
