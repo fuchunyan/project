@@ -12,7 +12,9 @@
 }
 
 .post-bar h5,.news-right a>p,.features-tabs-section .header p,.family-header p,.gallery-hero p,.solve-services .solve-header p,
-.solve-header p,.solve-black h5{
+.solve-header p,.solve-black h5,.features-section .feature .info p,.features-section .header p,.case-show-box .case-show p,
+.services-showcase-section .header p,.features-tabs-section .tabs-wrapper .tab-content .tab-pane .info p,.services-intro p,
+.about-us-team p,.portfolio-item-showcase .project .description p{
    font-size: 16px;
 }
 
@@ -22,17 +24,20 @@
    font-size: 18px;
 }
 
-.about-us-slider .header h3,.family-header h2,.blog-posts .post .title{
+
+.about-us-slider .header h3,.family-header h2,.blog-posts .post .title,.features-section .feature .info h4,.features-tabs-section .tabs-wrapper .tab-content .tab-pane .info h4
+{
    font-size: 24px;
 }
 
 .contact-us h3,.position-text p, .features-tabs-section .header h3,.gallery-hero h1,.about-us-team .header,
-.part-title.header,.solve-header h3{
+.part-title.header,.solve-header h3,.features-section .header h2,.clients-section h3,.case-show-box .case-show h2{
    font-size: 26px;
 }
 .scheme h5.pricing-dark-section .charts .chart .specs .spec,.form-control,
 .introduction h4,.family-header h2,.post-bar h4,.post-bar h5,.features-tabs-section .header h3,.gallery-hero h1,
-.about-us-team .header,.part-title,.contact-us h3,.solve-services .solve-header h3,.solve-header h3 {
+.about-us-team .header,.part-title,.contact-us h3,.solve-services .solve-header h3,.solve-header h3,.services-showcase-section .header h3,
+.clients-section h3,.case-show-box .case-show h2{
    font-weight: 400;
 }
 
@@ -40,19 +45,26 @@
    font-weight: 500;
 }
 
-.gallery-hero h1,.part-title.header,.part-title,.solve-header h3,.case-content-box .case-nav-tabs .case-nav-tabs  li a{
+/*正文字体颜色*/
+.service-bg p,.services-grid-section .services .service .info p,.features-tabs-section .tabs-wrapper .tab-content .tab-pane .info p,
+.news-right a>p,.about-us-team p,.about-address p,.portfolio-item-showcase .project .description p{
+   color: #575a5f;
+}
+
+.part-title.header,.part-title,.solve-header h3,.case-content-box .case-nav-tabs .case-nav-tabs  li a{
    color: #55565d;
 }
 
-.gallery-hero p,.solve-services .solve-header p,.solve-header p,.case-text p,.case-text i{
+.gallery-hero p,.solve-services .solve-header p,.solve-header p,.case-text p,.case-text i,.features-section .header p,.case-show-box .case-show p,
+.services-showcase-section .header p{
    color: #888;
 }
 
-.about-address p{
-   color:#666;
+.features-tabs-section .header h3,.news-icon span,.services-showcase-section .header h3, .solve-header h3,.gallery-hero h1,
+.part-title.header, .part-title,.contact-us h3,.case-show-box .case-show h2{
+   color: #555;
 }
-
-.about-address h1,.contact-box-right h4,.blog-content title,.contact-us h3,.case-text h5{
+.about-address h1,.contact-box-right h4,.blog-content title,.case-text h5{
    color: #444;
 }
 
@@ -60,12 +72,28 @@
    color: #fff;
 }
 
-.portfolio-header p{
+.portfolio-header p,.service-bg h3,.features-tabs-section .tabs-wrapper .tab-content .tab-pane .info h4{
    color: #2279ad;
 }
-
+/*隔断背景*/
 .solve-bg,.solve-services{
    background-color: #fff;
+}
+
+.index-solve,.blog-showcase,.part-bg {
+   background-color: #F6F9FE;
+}
+
+.slider-section,.blog-showcase,.part-bg ,.part-content{
+   padding:70px 0;
+   margin-top: 0;
+}
+
+.features-section .divider{
+   margin: 70px 0;
+}
+.about-us-team .team .team-row{
+   margin-bottom: 70px;
 }
 
 .case-content-box .case-nav-tabs .case-nav-tabs li a:hover,.case-content-box .case-nav-tabs .case-nav-tabs li  a:active,
@@ -99,15 +127,17 @@
    margin-top: 24px;
 }
 
-.slider-section,.blog-showcase{
-   margin-top: 120px;
-}
+/*.slider-section,.blog-showcase{*/
+   /*margin-top: 70px;*/
+/*}*/
 
 .features-tabs-section .tabs-wrapper .nav-tabs a{
    padding: 0 64px 20px;
 }
 
-
+.clients-section h3{
+  letter-spacing: 0;
+}
 /*产品与服务*/
 .portfolio-hero{
    background-image: url(../images/service.jpg);
@@ -120,13 +150,14 @@
    width: 100%;
 }
 
-.services-intro p{
-   margin-bottom: 12px;
-}
-
 .portfolio-services-grid{
    margin-top: 70px;
 }
+
+.service-bg{
+   background-color: #fff;
+   padding: 70px 0;
+ }
 
 /*解决方案*/
 .solve-hero{
@@ -138,7 +169,7 @@
    padding: 0 100px 20px;
 }
 
-.architecture-box{
+.architecture-box,.detail-box{
    background-color:#F6F9FE;
    padding: 70px 0;
 }
@@ -246,8 +277,44 @@
 }
 
 
+/*解决方案详情*/
+.detail-row{
+   background-color: #f3f4f7;
+}
+.detail-col-left{
+   background-color: #fff;
+   padding: 48px;
+}
 
-/*关于我们*/
+.detail-box .detail-row .detail-col-left p{
+   width: 100%;
+}
+
+.detail-box .detail-row .detail-col-left .detail-line,.detail-box .detail-row .detail-col-right .detail-line{
+   width: 10px;
+   height: 2px;
+   background-color: #21a79b;
+   margin-top: 10px;
+}
+
+.detail-col-right{
+   padding: 48px;
+}
+
+.detail-box-bg{
+   background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+   /*关于我们*/
 .about-us-hero{
    background-image: url(../images/about-banner.jpg);
    height: 450px;
@@ -371,10 +438,10 @@
    line-height: 25px;
 }
 
-.part-bg {
-   background-color: #F6F9FE;
-   padding: 100px 0
-}
+/*.part-bg {*/
+   /*background-color: #F6F9FE;*/
+   /*padding: 100px 0*/
+/*}*/
 
 .part-bg .join-us.pricing-dark-section {
    background: transparent;
@@ -446,8 +513,10 @@
 
 .partner-col{
    text-align: center;
-   padding-bottom: 40px;
+   padding: 32px 0;
    margin: 0 !important;
+   border-top:solid 1px #ddd;
+   border-right:solid 1px #ddd;
 }
 
 .gallery-portfolio{
@@ -486,7 +555,7 @@
    line-height: 24px;
 }
 
-.news-right a>p,.news-icon i{
+.news-icon i{
    color: #7d8186;
 }
 
@@ -494,10 +563,6 @@
    position: absolute;
    bottom: 0;
    line-height: 14px
-}
-
-.news-icon span{
-   color: #555;
 }
 
 .news-icon i{
