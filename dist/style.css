@@ -3,21 +3,22 @@
    /*box-sizing: initial;*/
 /*}*/
 
+.case-text p,.solve-black p{
+   font-size: 12px;
+}
 
-.team-text p,.form-control,.about-btn,.btn-primary.active,.post-bar-first p,.news-right a>span,.news-icon i,.news-project-time i{
+.form-control,.about-btn,.btn-primary.active,.post-bar-first p,.news-right a>span,.news-icon i,.news-project-time i,.case-text i{
    font-size: 14px;
 }
 
-.team-nav li a,.introduction p{
-   font-size: 15px;
-}
-
-.team-text h4,.post-bar h5,.news-right a>p,.team-text-intr p,.features-tabs-section .header p,.family-header p{
+.post-bar h5,.news-right a>p,.features-tabs-section .header p,.family-header p,.gallery-hero p,.solve-services .solve-header p,
+.solve-header p,.solve-black h5{
    font-size: 16px;
 }
 
 .about-address h1,.project p,.news-right a>h5,.blog-showcase .posts .pic p,.portfolio-hero .sub-text,
-.portfolio-header p{
+.portfolio-header p,.solve-hero .sub-text,.customer-hero .sub-text,.about-us-hero .sub-text,
+.case-content-box .case-nav-tabs .case-nav-tabs li a,.case-text h5,.solve-black h5{
    font-size: 18px;
 }
 
@@ -25,19 +26,54 @@
    font-size: 24px;
 }
 
-.contact-us h3,.position-text p, .features-tabs-section .header h3{
+.contact-us h3,.position-text p, .features-tabs-section .header h3,.gallery-hero h1,.about-us-team .header,
+.part-title.header,.solve-header h3{
    font-size: 26px;
 }
-.scheme h5.pricing-dark-section .charts .chart .specs .spec,.form-control,.team-nav li a,.team-nav li a.active,
-.introduction h4,.family-header h2,.post-bar h4,.post-bar h5{
+.scheme h5.pricing-dark-section .charts .chart .specs .spec,.form-control,
+.introduction h4,.family-header h2,.post-bar h4,.post-bar h5,.features-tabs-section .header h3,.gallery-hero h1,
+.about-us-team .header,.part-title,.contact-us h3,.solve-services .solve-header h3,.solve-header h3 {
    font-weight: 400;
 }
 
-.contact-us h3,.about-btn,.btn-primary.active,.news-right a>h5,.position-text p,.blog-posts .post .title{
+.about-btn,.btn-primary.active,.news-right a>h5,.position-text p,.blog-posts .post .title{
    font-weight: 500;
 }
 
-.skip a,.middle-btn a{
+.gallery-hero h1,.part-title.header,.part-title,.solve-header h3,.case-content-box .case-nav-tabs .case-nav-tabs  li a{
+   color: #55565d;
+}
+
+.gallery-hero p,.solve-services .solve-header p,.solve-header p,.case-text p,.case-text i{
+   color: #888;
+}
+
+.about-address p{
+   color:#666;
+}
+
+.about-address h1,.contact-box-right h4,.blog-content title,.contact-us h3,.case-text h5{
+   color: #444;
+}
+
+.contact-box-right h4,.solve-black h5,.solve-black p{
+   color: #fff;
+}
+
+.portfolio-header p{
+   color: #2279ad;
+}
+
+.solve-bg,.solve-services{
+   background-color: #fff;
+}
+
+.case-content-box .case-nav-tabs .case-nav-tabs li a:hover,.case-content-box .case-nav-tabs .case-nav-tabs li  a:active,
+.case-content-box .case-nav-tabs .case-nav-tabs li a:focus,.case-content-box .case-nav-tabs .case-nav-tabs li a.active{
+   color: #21a79b;
+}
+
+.skip a,.middle-btn a,.skip li a{
    text-decoration: none;
 }
 
@@ -47,6 +83,10 @@
 
 .news-right a:focus,.news-right a:hover,.news-right a:active{
    text-decoration: none;
+}
+
+.features-section{
+   margin-top: 80px;
 }
 
 /*首页*/
@@ -69,21 +109,14 @@
 
 
 /*产品与服务*/
-.index-hero {
-   overflow: hidden;
-   background: #4b4848;
-   background-size: cover;
-   background-image: url(../images/index-hero.jpg);
-   height: 750px;
-   position: relative;
-   padding-top: 220px;
-}
-
 .portfolio-hero{
+   background-image: url(../images/service.jpg);
    height: 450px;
 }
 
-.portfolio-hero .hero-text,.portfolio-hero .sub-text{
+.portfolio-hero .hero-text,.portfolio-hero .sub-text,.solve-hero .hero-text,.solve-hero .sub-text,
+.customer-hero .hero-text,.customer-hero .sub-text,.about-us-hero .hero-text,.about-us-hero .sub-text,
+.team-hero .hero-text,.team-hero .sub-text{
    width: 100%;
 }
 
@@ -91,36 +124,135 @@
    margin-bottom: 12px;
 }
 
-.portfolio-services .services{
-   padding-bottom: 60px;
-}
-
 .portfolio-services-grid{
    margin-top: 70px;
 }
 
-.portfolio-header p{
-   color: #2279ad;
+/*解决方案*/
+.solve-hero{
+   background-image: url(../images/solve.jpg);
+   height: 450px;
 }
 
-
-/*解决方案*/
 .features-tabs-section .tabs-wrapper .solve-nav a{
    padding: 0 100px 20px;
 }
 
 .architecture-box{
-   background-color:#fff;
-   padding: 100px 0;
+   background-color:#F6F9FE;
+   padding: 70px 0;
 }
 .architecture-img{
-   width:800px;
-   height: 560px;
-   overflow: hidden;
-   margin: 0 auto;
+ text-align: center;
+   margin-top: 24px;
+}
+.architecture-img >img
+{
+   width: 70%;
+   box-shadow: 0 2px 9px 0 #EFF2F7;
 }
 
+.services-showcase-section .header{
+   border:0;
+}
+
+.solve-services{
+   padding-bottom: 54px;
+}
+
+.case-box{
+   padding:70px 0;
+}
+
+.case-content-box .case-nav-tabs .case-nav-tabs li a{
+   padding: 0 12px 20px 12px;
+   margin: 0 8px;
+}
+
+
+/*.case-content-box .case-nav-tabs .case-nav-tabs li a.active{*/
+   /*color: #21a79b;*/
+/*}*/
+
+.case-content-box .case-nav-tabs .case-nav-tabs li a.active:after{
+   border-bottom: 1px solid #21a79b;
+}
+
+.case-content-box .case-nav-tabs{
+   margin-top: 34px;
+}
+
+.case-col{
+   height: 220px;
+   overflow: hidden;
+}
+
+.case-text{
+   padding: 22px 16px 36px;
+   border:1px solid #ddd;
+}
+
+.case-text h5{
+   line-height: 30px;
+   margin-bottom: 0;
+}
+
+.case-text p{
+   line-height: 24px;
+   padding-bottom: 12px;
+   margin-bottom: 0;
+}
+
+.case-text .case-line{
+   line-height: 36px;
+}
+
+.features-tabs-section .tabs-wrapper .tab-content .tab-pane{
+   height:1532px;
+}
+
+.case-tab-pane .col-md-4{
+   margin-bottom: 32px;
+}
+
+.case-tab-pane .col-md-4{
+   position: relative;
+}
+
+.solve-black{
+   width: 327px;
+   height: 220px;
+   background-color: rgba(41,69,125,.35);
+   position: absolute;
+   left: 15px;
+   top: 0;
+   display:none;
+}
+
+.solve-black h5,.solve-black p{
+   text-align: center;
+   line-height: 18px;
+
+
+}
+
+.solve-black h5{
+   margin-bottom: 8px;
+   margin-top: 88px;
+}
+
+.case-col:hover .solve-black{
+   display: block;
+}
+
+
+
 /*关于我们*/
+.about-us-hero{
+   background-image: url(../images/about-banner.jpg);
+   height: 450px;
+}
+
 .about-contact{
    border-top: 1px solid #eaeaea;
    border-bottom: 1px solid #eaeaea;
@@ -129,20 +261,7 @@
    padding:32px 0 32px 0;
 }
 
-.about-address p{
-   color:#666;
-}
-
-.about-address h1,.contact-box-right h4,.blog-content title{
-   color: #444;
-}
-
-.contact-box-right h4{
-   color: #fff;
-}
-
 .contact-us h3{
-   color: #444;
    line-height: 25px;
 }
 
@@ -210,166 +329,95 @@
 
 
 /*团队介绍*/
-
-/*新的*/
-.team-us{
-   width: 100%;
-   height: 500px;
-   overflow: hidden;
+.team-hero{
+   background-image: url(../images/photo-bg.jpg);
+   height: 450px;
 }
 
-.flexslider{
-   border:0;
+.font-weight-3 {
+   font-weight: 300;
 }
 
-.team-person{
-   margin-top: 48px;
+.photo-wall.cta-bg.my-4 h1 {
+   color: #fff;
 }
 
-.team-person-left{
-   text-align: right;
-}
-
-.team-tab{
-   line-height: 100px;
-}
-
-.nav-tabs .team-tab.active{
-  color: #fff;
-}
-
-.about-team p{
-   margin-bottom: 4px;
-}
-
-.nav-team{
-   margin-top: 48px;
-}
-
-.about-us-slider{
-   margin-top:60px;
-}
-
-.family,.news-blog,.news-show,.about-us,.about-team{
+.part-content {
    margin-top: 100px;
 }
 
-.family-header h2{
-   color: #555;
+.part-content .card-columns {
+   margin-top: 60px;
 }
 
-.family-header p{
-   color: #757575;
+.part-title.header {
+   line-height: 25px;
+   margin-bottom: 25px;
+   text-align: center
 }
 
-.blog-timeline-wrapper .post .entry,.blog-timeline-wrapper .post .entry.smallish{
-   height: 240px ;
+.about-us-team {
+   padding-bottom: 8px;
+   margin-top: 80px;
 }
 
-.blog-timeline-wrapper .post:nth-child(2){
-   margin-top: 300px !important;
+.about-us-team>.stats>.col-sm-3 span {
+   font-size: 3.125em;
+   font-weight: 200;
+   color: #21a79b
 }
 
-.blog-timeline-wrapper .post{
-   width: 40%;
+.about-us-team .header {
+   line-height: 25px;
 }
 
-.blog-timeline-wrapper .post:before{
-   width: 150px;
-   top:108px !important;
+.part-bg {
+   background-color: #F6F9FE;
+   padding: 100px 0
 }
 
-.blog-timeline-wrapper .post .marker{
-   top:102px !important;
+.part-bg .join-us.pricing-dark-section {
+   background: transparent;
+   border: 0;
+   margin-top: 0;
+   padding-bottom: 0;
+   padding-top: 0;
 }
 
-.blog-timeline-wrapper .post.left:before,.blog-timeline-wrapper .post.left .marker{
-   right: -106px;
+.part-bg .join-us.pricing-dark-section .charts .chart {
+   box-shadow: 0 0 2px 0 rgba(181, 181, 181, 0);
+   height: 825px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   top: 0
 }
 
-.blog-timeline-wrapper .post .marker,.blog-timeline-wrapper .post:before{
-   left: -107px;
+.part-bg .join-us.pricing-dark-section .charts .chart .plan-name {
+   width: 100%
 }
 
-.blog-timeline-wrapper .post-left,.blog-timeline-wrapper .post-right{
-   margin-top: 260px;
+.part-bg .join-us.pricing-dark-section .charts .chart .dollar {
+   color: #21a79b
 }
 
-.blog-timeline-wrapper:before{
-   height: 95%;
-   top:80px;
+.part-bg .join-us.pricing-dark-section .charts .chart .specs ul li {
+   line-height: 1.7;
 }
 
-.post-bar{
-   border-bottom: solid 1px #21a79b;
-   padding-bottom: 20px;
+.card-body>p {
+   font-weight: 300;
 }
-
-.blog-posts .post{
-   border-bottom:1px solid #dfdfdf;
-   padding-bottom: 32px;
-}
-
-.blog-posts .post{
-   margin-bottom: 32px !important;
-}
-
-.team-text{
-   width:400px;
-   height: 240px;
-   background: rgba(0,0,0,0.4);
-   color: #fff;
-   padding: 12px 30px;
-   position: absolute;
-   top:50%;
-   margin-top: -120px;
-   right: 80px;
-   z-index: 999;
-}
-
-.post-bar h4{
-   margin: 40px 0;
-   color: #2b69a2;
-}
-
-.post-bar h5{
-   color: #555;
-   margin: 24px 0;
-}
-
-.post-bar-first p{
-   color: #6c7279;
-   padding-left: 25px;
-   margin-bottom:15px;
-   line-height: 24px;
-}
-
-.send-btn{
-   text-align: center;
-   margin-top: 40px;
-}
-
-/*.blog-timeline-wrapper .post .entry.smallish .intro{*/
-   /*top: 75% !important;*/
-/*}*/
 
 
 /*合作伙伴*/
-.team-banner{
-   width: 100%;
-   height: 400px;
-   overflow: hidden;
-   position: relative;
+.customer-hero{
+   background-image: url(../images/team.jpg);
+   height: 450px;
 }
-
-.team-banner img{
-   width: 100%;
-}
-
 .black-box{
    width: 100%;
    height: 400px;
-   background-color: rgba(0,0,0,.6);
+   background-color: rgba(41,69,125,.35);
    position: absolute;
    top: 0;
    left: 0;
@@ -458,7 +506,6 @@
 
 
 /*快讯详情*/
-
 .news-project h1{
    text-align: center;
    font-size: 25px;
@@ -493,8 +540,6 @@
    overflow: hidden;
    margin: 48px auto;
 }
-
-
 
 
 /*联系我们*/
@@ -541,6 +586,10 @@
 
 .footer .menu ul li a:hover{
    color: #000;
+}
+
+.footer-color{
+   margin-top: 70px;
 }
 
 .footer-color .menu h3,.footer-color .menu ul li a,.footer-color .menu ul li span,.footer-color .menu ul li a:hover,.footer-color .menu ul li span:hover {
