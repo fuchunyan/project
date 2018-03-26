@@ -12236,7 +12236,7 @@ body {
   overflow: hidden;
   background: #4B4848;
   background-size: cover;
-  background-image: url("../images/index-hero.jpg");
+  background-image: url("../images/index-hero2.jpg");
   height: 750px;
   position: relative;
   padding-top: 220px; }
@@ -12261,7 +12261,6 @@ body {
     font-weight: 300;
     letter-spacing: .3px;
     color: #FFF;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     -webkit-animation-duration: 1s;
     -moz-animation-duration: 1s;
     -o-animation-duration: 1s;

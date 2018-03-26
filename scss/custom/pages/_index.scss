@@ -2,7 +2,7 @@
     overflow: hidden;
     background: #4B4848;
     background-size: cover;
-    background-image: url("../images/index-hero.jpg");
+    background-image: url("../images/index-hero2.jpg");
     height: 750px;
     position: relative;
     padding-top: 220px;
@@ -29,7 +29,6 @@
         font-weight: 300;
         letter-spacing: .3px;
         color: #FFF;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
         @include animationDuration(1s);
         @media (max-width: 767px) {
             font-size: 27px;
